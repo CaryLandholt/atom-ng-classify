@@ -13,13 +13,14 @@
 		"email": "cary@landholt.com",
 		"url": "https://github.com/CaryLandholt"
 	},
-	"main": "index",
+	"main": "./lib/ng-classify",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/CaryLandholt/atom-ng-classify"
 	},
 	"dependencies": {
-		"ng-classify": "~0.4.0"
+		"ng-classify": "~0.4.0",
+		"underscore-plus": "~1.0.4"
 	},
 	"engines": {
 		"atom": ">0.73.0"

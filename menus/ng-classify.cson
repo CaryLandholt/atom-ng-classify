@@ -1,0 +1,18 @@
+'context-menu':
+	'.overlayer':
+		'ng-classify': 'ng-classify:compile'
+
+'menu': [
+	{
+		'label': 'Packages'
+		'submenu': [
+			'label': 'ng-classify'
+			'submenu': [
+				{
+					'label': 'Compile'
+					'command': 'ng-classify:compile'
+				}
+			]
+		]
+	}
+]
