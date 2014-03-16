@@ -1,0 +1,103 @@
+'.source.coffee':
+	'Angular Animation':
+		'prefix': 'ng-animation'
+		'body': """
+		class ${1:ClassName} extends Animation
+			constructor:${2: (${3:parameter})} ->
+				return {
+					$4
+				}
+		"""
+
+	'Angular App':
+		'prefix': 'ng-app'
+		'body': """
+		class ${1:ClassName} extends App
+			@constructor = [
+				'${2:dependency}'
+			]
+		"""
+
+	'Angular Config':
+		'prefix': 'ng-config'
+		'body': """
+		class ${1:ClassName} extends Config
+			constructor:${2: (${3:parameter})} ->
+				$4
+		"""
+
+	'Angular Constant':
+		'prefix': 'ng-constant'
+		'body': """
+		class ${1:ClassName} extends Constant
+			@constructor = $2
+		"""
+
+	'Angular Controller':
+		'prefix': 'ng-controller'
+		'body': """
+		class ${1:ClassName} extends Controller
+			constructor:${2: (${3:parameter})} ->
+				$4
+		"""
+
+	'Angular Directive':
+		'prefix': 'ng-directive'
+		'body': """
+		class ${1:ClassName} extends Directive
+			constructor:${2: (${3:parameter})} ->
+				return {
+					$4
+				}
+		"""
+
+	'Angular Factory':
+		'prefix': 'ng-factory'
+		'body': """
+		class ${1:ClassName} extends Factory
+			constructor:${2: (${3:parameter})} ->
+				return class
+					constructor:${4: (${5:parameter})} ->
+						$6
+		"""
+
+	'Angular Filter':
+		'prefix': 'ng-filter'
+		'body': """
+		class ${1:ClassName} extends Filter
+			constructor:${2: (${3:parameter})} ->
+				return${4: (${5:parameter})} ->
+					$6
+		"""
+
+	'Angular Provider':
+		'prefix': 'ng-provider'
+		'body': """
+		class ${1:ClassName} extends Provider
+			constructor:${2: (${3:parameter})} ->
+				@$get = ->
+					$4
+		"""
+
+	'Angular Run':
+		'prefix': 'ng-run'
+		'body': """
+		class ${1:ClassName} extends Run
+			constructor:${2: (${3:parameter})} ->
+				$4
+		"""
+
+	'Angular Service':
+		'prefix': 'ng-service'
+		'body': """
+		class ${1:ClassName} extends Service
+			constructor:${2: (${3:parameter})} ->
+				$4
+		"""
+
+	'Angular Value':
+		'prefix': 'ng-value'
+		'body': """
+		class ${1:ClassName} extends Value
+			@constructor = $2
+		"""
