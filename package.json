@@ -1,6 +1,6 @@
 {
 	"name": "ng-classify",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "Snippets for Converting CoffeeScript classes to AngularJS modules with ng-classify",
 	"homepage": "https://github.com/CaryLandholt/atom-ng-classify",
 	"bugs": {
