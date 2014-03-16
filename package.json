@@ -13,7 +13,7 @@
 		"email": "cary@landholt.com",
 		"url": "https://github.com/CaryLandholt"
 	},
-	"main": "./lib/ng-classify-main",
+	"main": "./lib/index",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/CaryLandholt/atom-ng-classify"
