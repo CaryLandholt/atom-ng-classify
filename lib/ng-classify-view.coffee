@@ -1,6 +1,6 @@
 {$, $$$, EditorView, ScrollView} = require 'atom'
-ngClassify = require 'ng-classify'
 _ = require 'underscore-plus'
+ngClassify = require 'ng-classify'
 path = require 'path'
 
 module.exports =
@@ -8,12 +8,13 @@ class NgClassifyView extends ScrollView
 	@content: ->
 		@div class: 'ng-classify native-key-bindings', tabindex: -1, =>
 			@div class: 'editor editor-colors', =>
-				@div outlet: 'compiledCode', class: 'lang-javascript lines'
+				@div outlet: 'compiledCode', class: 'lang-coffeescript lines'
 
 	constructor: (@editorId) ->
 		super
 
 		@editor = @getEditor @editorId
+
 		if @editor?
 			@trigger 'title-changed'
 			@bindEvents()
@@ -31,10 +32,12 @@ class NgClassifyView extends ScrollView
 	getEditor: (id) ->
 		for editor in atom.workspace.getEditors()
 			return editor if editor.id?.toString() is id.toString()
+
 		return null
 
 	getSelectedCode: ->
 		range = @editor.getSelectedBufferRange()
+
 		code =
 			if range.isEmpty()
 				@editor.getText()
@@ -51,11 +54,13 @@ class NgClassifyView extends ScrollView
 		catch e
 			text = e.stack
 
-		grammar = atom.syntax.selectGrammar("hello.js", text)
+		grammar = atom.syntax.selectGrammar 'hello.coffee', text
+
 		@compiledCode.empty()
 
 		for tokens in grammar.tokenizeLines(text)
-			attributes = class: "line"
+			attributes = class: 'line'
+
 			@compiledCode.append(EditorView.buildLineHtml({tokens, text, attributes}))
 
 		# Match editor styles

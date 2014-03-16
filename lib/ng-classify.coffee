@@ -1,6 +1,6 @@
-url = require 'url'
-querystring = require 'querystring'
 NgClassifyView = require './ng-classify-view'
+querystring = require 'querystring'
+url = require 'url'
 
 module.exports =
 	configDefaults:
@@ -19,7 +19,7 @@ module.exports =
 
 			return unless protocol is 'ngclassify:'
 
-			new NgClassifyView(pathname.substr(1))
+			new NgClassifyView pathname.substr 1
 
 	display: ->
 		editor = atom.workspace.getActiveEditor()
@@ -30,7 +30,7 @@ module.exports =
 		grammars = atom.config.get('ng-classify.grammars') or []
 
 		unless (grammar = editor.getGrammar().scopeName) in grammars
-			console.warn("Cannot compile non-CoffeeScript to JavaScript")
+			console.warn 'Cannot compile non-CoffeeScript to JavaScript'
 
 			return
 
