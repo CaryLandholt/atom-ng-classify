@@ -19,7 +19,7 @@
 		"url": "https://github.com/CaryLandholt/atom-ng-classify"
 	},
 	"engines": {
-		"atom": ">=0.60.0"
+		"atom": ">=0.73.0"
 	},
 	"private": true,
 	"activationEvents": [
