@@ -1,10 +1,10 @@
 # ng-classify for Atom  [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url]
 
-> Snippets for Converting CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
+> Snippets for converting CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
 
 ![](https://raw.github.com/CaryLandholt/atom-ng-classify/master/screenshot.png)
 
-Go to `Packages > ng-classify > Compile`
+Go to `Packages > ng-classify > Compile` to seethe ng-classified version
 
 ## Table of Contents
 
