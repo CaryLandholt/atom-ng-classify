@@ -2,6 +2,8 @@
 
 > Snippets for Converting CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
 
+![](https://raw.github.com/CaryLandholt/atom-ng-classify/master/screenshot.png)
+
 ## Table of Contents
 
 * [Install](#install)
