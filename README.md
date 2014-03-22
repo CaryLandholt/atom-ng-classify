@@ -4,6 +4,8 @@
 
 ![](https://raw.github.com/CaryLandholt/atom-ng-classify/master/screenshot.png)
 
+Go to `Packages > ng-classify > Compile`
+
 ## Table of Contents
 
 * [Install](#install)
