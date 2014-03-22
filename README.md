@@ -4,7 +4,7 @@
 
 ![](https://raw.github.com/CaryLandholt/atom-ng-classify/master/screenshot.png)
 
-Go to `Packages > ng-classify > Compile` to seethe ng-classified version
+Go to `Packages > ng-classify > Compile` to see the ng-classified version
 
 ## Table of Contents
 
