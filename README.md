@@ -29,6 +29,7 @@ apm install ng-classify
 * [ng-factory](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#factory)
 * [ng-filter](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#filter)
 * [ng-provider](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#provider)
+* [ng-router](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#config) (Similar to ng-config, but with router boilerplate)
 * [ng-run](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#run)
 * [ng-service](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#service)
 * [ng-value](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#value)

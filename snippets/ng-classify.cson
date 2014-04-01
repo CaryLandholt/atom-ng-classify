@@ -79,6 +79,18 @@
 					$4
 		"""
 
+	'Angular Router':
+		'prefix': 'ng-router'
+		'body': """
+		class ${1:ClassName} extends Config
+			constructor: ($routerProvider${2:, ${3:parameter}}) ->
+				$routerProvider
+				.when '$4',
+					controller: '$5'
+					controllerAs: '$6'
+					templateUrl: '$7'
+		"""
+
 	'Angular Run':
 		'prefix': 'ng-run'
 		'body': """
