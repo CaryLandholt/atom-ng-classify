@@ -83,8 +83,8 @@
 		'prefix': 'ng-router'
 		'body': """
 		class ${1:ClassName} extends Config
-			constructor: ($routerProvider${2:, ${3:parameter}}) ->
-				$routerProvider
+			constructor: ($routeProvider${2:, ${3:parameter}}) ->
+				$routeProvider
 				.when '$4',
 					controller: '$5'
 					controllerAs: '$6'
