@@ -1,3 +1,12 @@
+<a name="1.3.3"></a>
+### 1.3.3  (2014-04-16)
+
+
+#### Bug Fixes
+
+* **ng-backend:** add proper escaping in snippet ([13704f06](https://github.com/CaryLandholt/atom-ng-classify/commit/13704f06444a92eb111d52b79020541ef514e527), closes [#1](https://github.com/CaryLandholt/atom-ng-classify/issues/1))
+
+
 <a name="1.3.2"></a>
 ### 1.3.2  (2014-04-15)
 
