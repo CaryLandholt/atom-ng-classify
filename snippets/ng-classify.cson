@@ -23,7 +23,7 @@
 		'body': """
 		class ${1:ClassName} extends Run
 			constructor: ($httpBackend${2:, ${3:parameter}}) ->
-				$httpBackend.whenGET(${4:/^.*.(html|htm)$/}).passThrough()
+				$httpBackend.whenGET(${4:/^.*\.(html|htm)$/}).passThrough()
 		"""
 
 	'Angular Config':
