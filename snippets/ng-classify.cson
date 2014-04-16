@@ -18,6 +18,14 @@
 			]
 		"""
 
+	'Angular Backend':
+		'prefix': 'ng-backend'
+		'body': """
+		class ${1:ClassName} extends Run
+			constructor: ($httpBackend${2:, ${3:parameter}}) ->
+				$httpBackend.whenGet(${4:/^.*\.(html|htm)$/}).passThrough()
+		"""
+
 	'Angular Config':
 		'prefix': 'ng-config'
 		'body': """

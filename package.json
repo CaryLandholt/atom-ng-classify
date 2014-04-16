@@ -1,32 +1,39 @@
 {
-  "name": "ng-classify",
-  "version": "1.2.1",
-  "description": "Snippets for Converting CoffeeScript classes to AngularJS modules with ng-classify",
-  "homepage": "https://github.com/CaryLandholt/atom-ng-classify",
-  "bugs": {
-    "url": "https://github.com/CaryLandholt/atom-ng-classify/issues",
-    "email": "cary@landholt.com"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Cary Landholt",
-    "email": "cary@landholt.com",
-    "url": "https://github.com/CaryLandholt"
-  },
-  "main": "./lib/ng-classify",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CaryLandholt/atom-ng-classify"
-  },
-  "engines": {
-    "atom": ">=0.73.0"
-  },
-  "private": true,
-  "activationEvents": [
-    "ng-classify:compile"
-  ],
-  "dependencies": {
-    "ng-classify": "^0.4.2",
-    "underscore-plus": "^1.0.4"
-  }
+	"name": "ng-classify",
+	"version": "1.2.1",
+	"description": "Snippets for Converting CoffeeScript classes to AngularJS modules with ng-classify",
+	"author": {
+		"name": "Cary Landholt",
+		"email": "cary@landholt.com",
+		"url": "https://github.com/CaryLandholt"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CaryLandholt/atom-ng-classify"
+	},
+	"main": "./lib/ng-classify",
+	"activationEvents": [
+		"ng-classify:compile"
+	],
+	"private": "true",
+	"keywords": [
+		"atom"
+		"angularjs",
+		"class",
+		"coffeescript",
+		"module"
+	],
+	"engines": {
+		"atom": ">=0.73.0"
+	},
+	"dependencies": {
+		"ng-classify": "^0.4.2",
+		"underscore-plus": "^1.2.1"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.7.1",
+		"conventional-changelog": "~0.0.8",
+		"gulp": "~3.6.0",
+		"gulp-util": "~2.2.14"
+	}
 }
