@@ -1,3 +1,12 @@
+<a name="1.3.1"></a>
+### 1.3.1  (2014-04-15)
+
+
+#### Bug Fixes
+
+* **ng-backend:** include correct AngularJS syntax ([2f910586](https://github.com/CaryLandholt/atom-ng-classify/commit/2f9105862386ce81a662dfb5fb5a7c83a3daec1d))
+
+
 <a name="1.3.0"></a>
 ## 1.3.0  (2014-04-15)
 
@@ -8,7 +17,7 @@
 
 
 <a name="1.2.1"></a>
-### 1.2.1  (2014-04-15)
+### 1.2.1  (2014-04-07)
 
 
 #### Bug Fixes
