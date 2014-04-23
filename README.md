@@ -1,4 +1,4 @@
-# ng-classify for [Atom](https://atom.io/) [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![devDependency Status][dev-dependencies-image]][dev-dependencies-url]
+# ng-classify for [Atom](https://atom.io/) [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![License][license-image]][license-url]
 > Snippets for converting CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
 
 ![](screenshot.png)
@@ -49,14 +49,14 @@ See [CHANGELOG.md](CHANGELOG.md)
 See [LICENSE](LICENSE)
 
 
-[build-image]:            https://secure.travis-ci.org/CaryLandholt/atom-ng-classify.svg
+[build-image]:            http://img.shields.io/travis/CaryLandholt/atom-ng-classify.svg?style=flat
 [build-url]:              http://travis-ci.org/CaryLandholt/atom-ng-classify
 
-[dependencies-image]:     https://david-dm.org/CaryLandholt/atom-ng-classify.svg
-[dependencies-url]:       https://david-dm.org/CaryLandholt/atom-ng-classify
+[dependencies-image]:     http://img.shields.io/gemnasium/CaryLandholt/atom-ng-classify.svg?style=flat
+[dependencies-url]:       https://gemnasium.com/CaryLandholt/atom-ng-classify
 
-[dev-dependencies-image]: https://david-dm.org/CaryLandholt/atom-ng-classify/dev-status.svg
-[dev-dependencies-url]:   https://david-dm.org/CaryLandholt/atom-ng-classify#info=devDependencies
+[license-image]:          http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]:            LICENSE
 
-[version-image]:          https://badge.fury.io/gh/CaryLandholt%2Fatom-ng-classify.svg
-[version-url]:            http://badge.fury.io/gh/CaryLandholt%2Fatom-ng-classify
+[version-image]:          http://img.shields.io/github/tag/CaryLandholt/atom-ng-classify.svg?style=flat
+[version-url]:            https://npmjs.org/package/atom-ng-classify
