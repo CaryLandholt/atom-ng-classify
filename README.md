@@ -59,4 +59,4 @@ See [LICENSE](LICENSE)
 [license-url]:            LICENSE
 
 [version-image]:          http://img.shields.io/github/tag/CaryLandholt/atom-ng-classify.svg?style=flat
-[version-url]:            https://npmjs.org/package/atom-ng-classify
+[version-url]:            https://github.com/CaryLandholt/atom-ng-classify/tags
