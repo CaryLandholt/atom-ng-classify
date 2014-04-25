@@ -27,13 +27,13 @@
 		"atom": ">=0.73.0"
 	},
 	"dependencies": {
-		"ng-classify": "^0.4.2",
-		"underscore-plus": "^1.2.1"
+		"ng-classify": "~0.4.2",
+		"underscore-plus": "~1.2.1"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.7.1",
 		"conventional-changelog": "~0.0.8",
-		"gulp": "~3.6.0",
+		"gulp": "~3.6.2",
 		"gulp-util": "~2.2.14"
 	}
 }
