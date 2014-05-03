@@ -1,3 +1,12 @@
+<a name="1.4.0"></a>
+## 1.4.0  (2014-05-02)
+
+
+#### Bug Fixes
+
+* **ng-classify:** update to remove regex parsing, use coffee-script nodes ([0acca0a6](https://github.com/CaryLandholt/atom-ng-classify/commit/0acca0a6b61b5fae58789f7c7f880ebea1d08ef5))
+
+
 <a name="1.3.3"></a>
 ### 1.3.3  (2014-04-16)
 
