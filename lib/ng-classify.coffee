@@ -7,6 +7,8 @@ module.exports =
 		grammars: [
 			'source.coffee'
 			'source.litcoffee'
+			'text.plain'
+			'text.plain.null-grammar'
 		]
 
 	activate: ->
