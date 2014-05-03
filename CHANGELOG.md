@@ -1,3 +1,12 @@
+<a name="1.4.1"></a>
+### 1.4.1  (2014-05-02)
+
+
+#### Bug Fixes
+
+* **view:** add horizontal scrolling ([c2610b3f](https://github.com/CaryLandholt/atom-ng-classify/commit/c2610b3fa48125347330346546c1e2db43e23830))
+
+
 <a name="1.4.0"></a>
 ## 1.4.0  (2014-05-02)
 

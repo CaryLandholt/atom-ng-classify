@@ -1,6 +1,6 @@
 {
 	"name": "ng-classify",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"description": "Snippets for Converting CoffeeScript classes to AngularJS modules with ng-classify",
 	"author": {
 		"name": "Cary Landholt",
@@ -27,7 +27,7 @@
 		"atom": ">=0.73.0"
 	},
 	"dependencies": {
-		"ng-classify": "~0.5.0",
+		"ng-classify": "~0.5.1",
 		"underscore-plus": "~1.2.1"
 	},
 	"devDependencies": {
