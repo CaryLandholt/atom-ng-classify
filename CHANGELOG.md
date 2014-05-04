@@ -1,3 +1,12 @@
+<a name="2.0.0"></a>
+## 2.0.0  (2014-05-04)
+
+
+#### Features
+
+* **moduleTypePrefix:** update ng-classify ([1be56620](https://github.com/CaryLandholt/atom-ng-classify/commit/1be566200c287ebc5b4f9e0a551b4382c7ea1e22))
+
+
 <a name="1.4.1"></a>
 ### 1.4.1  (2014-05-02)
 
