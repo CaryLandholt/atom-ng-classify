@@ -1,3 +1,15 @@
+## 3.0.0 (2014-06-14)
+
+
+#### Breaking Changes
+
+* ng-classify options.data deprecated
+
+Use gulp-template or another alternative
+
+ ([4f84cefb](https://github.com/CaryLandholt/atom-ng-classify/commit/4f84cefb2787d41dcdede0c4e9d401327ba6734e))
+
+
 <a name="2.0.0"></a>
 ## 2.0.0  (2014-05-04)
 
