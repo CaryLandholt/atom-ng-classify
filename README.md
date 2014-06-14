@@ -1,23 +1,32 @@
-# ng-classify for [Atom](https://atom.io/) [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![License][license-image]][license-url]
-> Snippets for converting CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
+# ng-classify for [Atom](https://atom.io/)
+[![License][license-image]][license-url]
+[![Version][version-image]][version-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][dependencies-image]][dependencies-url]
+> Snippets for converting CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)  
+> Write less JavaScript. Write less CoffeeScript. Write less Angular.
 
-![](screenshot.png)
+
+## Install
+```bash
+$ apm install ng-classify
+```
+
+
+## Usage
+See [Snippets](#snippets) below
 
 Go to `Packages > ng-classify > Compile` to see the ng-classified version
+![](screenshot.png)
 
 
 ## Table of Contents
-* [Installing](#installing)
+* [Install](#install)
+* [Usage](#usage)
 * [Snippets](#snippets)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [License](#license)
-
-
-## Installing
-```bash
-$ apm install ng-classify
-```
 
 
 ## Snippets
