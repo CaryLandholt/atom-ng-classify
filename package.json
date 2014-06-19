@@ -24,11 +24,12 @@
 		"coffeescript",
 		"module"
 	],
+	"license": "MIT",
 	"engines": {
 		"atom": ">=0.103.0"
 	},
 	"dependencies": {
-		"ng-classify": "~2.0.3",
+		"ng-classify": "~3.0.0",
 		"underscore-plus": "~1.4.1"
 	},
 	"devDependencies": {

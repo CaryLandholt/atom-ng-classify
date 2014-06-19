@@ -1,7 +1,7 @@
 {$, $$$, EditorView, ScrollView} = require 'atom'
-_ = require 'underscore-plus'
-ngClassify = require 'ng-classify'
-path = require 'path'
+_                                = require 'underscore-plus'
+ngClassify                       = require 'ng-classify'
+path                             = require 'path'
 
 module.exports =
 class NgClassifyView extends ScrollView
@@ -10,16 +10,15 @@ class NgClassifyView extends ScrollView
 			@div class: 'editor editor-colors', =>
 				@div outlet: 'compiledCode', class: 'lang-coffeescript lines'
 
-	constructor: (@editorId) ->
+	constructor: ({@editorId, @editor}) ->
 		super
 
-		@editor = @getEditor @editorId
+		if @editorId? and not @editor
+			editor = @getEditor @editorId
 
 		if @editor?
 			@trigger 'title-changed'
 			@bindEvents()
-		else
-			@parents('.pane').view()?.destroyItem(this)
 
 	destroy: ->
 		@unsubscribe()
@@ -33,7 +32,7 @@ class NgClassifyView extends ScrollView
 		for editor in atom.workspace.getEditors()
 			return editor if editor.id?.toString() is id.toString()
 
-		return null
+		null
 
 	getSelectedCode: ->
 		range = @editor.getSelectedBufferRange()
@@ -42,15 +41,18 @@ class NgClassifyView extends ScrollView
 			if range.isEmpty()
 				@editor.getText()
 			else
-				@editor.getTextInBufferRange(range)
+				@editor.getTextInBufferRange range
 
-		return code
+		code
 
-	renderCompiled: ->
+	compile: (code) ->
+		ngClassify code
+
+	renderCompiled: (callback) ->
 		code = @getSelectedCode()
 
 		try
-			text = ngClassify code
+			text = @compile code
 		catch e
 			text = e.stack
 
@@ -67,14 +69,15 @@ class NgClassifyView extends ScrollView
 		@compiledCode.css
 			fontSize: atom.config.get('editor.fontSize') or 12
 			fontFamily: atom.config.get('editor.fontFamily')
+			
+		callback?()
 
 	getTitle: ->
-		if @editor.getPath()
-			"Compiled #{path.basename(@editor.getPath())}"
-		else if @editor
+		if @editor?
 			"Compiled #{@editor.getTitle()}"
 		else
-			"Compiled Javascript"
+			"Compiled CoffeeScript"
 
 	getUri: -> "ngclassify://editor/#{@editorId}"
-	getPath: -> @editor.getPath()
+
+	getPath: -> @editor?.getPath() or ''
