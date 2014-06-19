@@ -1,3 +1,15 @@
+## 4.0.0 (2014-06-19)
+
+
+#### Breaking Changes
+
+* update to ng-classify 3.0.0
+
+See https://github.com/CaryLandholt/ng-classify/blob/master/CHANGELOG.md#300-2014-06-18
+
+ ([efb588de](https://github.com/CaryLandholt/atom-ng-classify/commit/efb588deaf8eb57d4bd8845d1f32dc9e449e4d7c))
+
+
 ## 3.0.0 (2014-06-14)
 
 
