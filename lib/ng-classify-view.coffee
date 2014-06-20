@@ -10,15 +10,16 @@ class NgClassifyView extends ScrollView
 			@div class: 'editor editor-colors', =>
 				@div outlet: 'compiledCode', class: 'lang-coffeescript lines'
 
-	constructor: ({@editorId, @editor}) ->
+	constructor: (@editorId) ->
 		super
-
-		if @editorId? and not @editor
-			editor = @getEditor @editorId
+		
+		@editor = @getEditor @editorId
 
 		if @editor?
 			@trigger 'title-changed'
 			@bindEvents()
+		else
+			@parents('.pane').view()?.destoryItem(this)
 
 	destroy: ->
 		@unsubscribe()
@@ -73,11 +74,13 @@ class NgClassifyView extends ScrollView
 		callback?()
 
 	getTitle: ->
-		if @editor?
+		if @editor.getPath()
+			"Compiled #{path.basename(@editor.getPath())}"
+		else if @editor
 			"Compiled #{@editor.getTitle()}"
 		else
-			"Compiled CoffeeScript"
+			"ng-classified"
 
 	getUri: -> "ngclassify://editor/#{@editorId}"
 
-	getPath: -> @editor?.getPath() or ''
+	getPath: -> @editor.getPath()
