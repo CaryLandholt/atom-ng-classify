@@ -1,3 +1,11 @@
+### 4.0.1 (2014-06-19)
+
+
+#### Bug Fixes
+
+* **ng-classify-view:** remove {} from parameter ([6779d066](https://github.com/CaryLandholt/atom-ng-classify/commit/6779d0666bc42630b92ca5d90bfbb7f29a69581f))
+
+
 ## 4.0.0 (2014-06-19)
 
 
