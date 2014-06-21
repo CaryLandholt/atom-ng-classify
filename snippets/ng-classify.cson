@@ -13,9 +13,10 @@
 		'prefix': 'ng-app'
 		'body': """
 		class ${1:ClassName} extends App
-			@constructor = [
-				'${2:dependency}'
-			]
+			constructor: ->
+				return [
+					'${2:dependency}'
+				]
 		"""
 
 	'Angular Backend':
@@ -38,7 +39,8 @@
 		'prefix': 'ng-constant'
 		'body': """
 		class ${1:ClassName} extends Constant
-			@constructor = $2
+			constructor: ->
+				return $2
 		"""
 
 	'Angular Controller':
@@ -119,5 +121,6 @@
 		'prefix': 'ng-value'
 		'body': """
 		class ${1:ClassName} extends Value
-			@constructor = $2
+			constructor: ->
+				return $2
 		"""
