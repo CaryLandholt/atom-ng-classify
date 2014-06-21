@@ -51,6 +51,19 @@
 				$4
 		"""
 
+	'Angular Decorator':
+		'prefix': 'ng-decorator'
+		'body': """
+		class ${1:ClassName} extends Config
+			constructor: ($provide${2:, ${3:parameter}}) ->
+				$provide.decorator '${4:serviceName}', ['$delegate', ($delegate) ->
+
+					$5
+
+					$delegate
+				]
+		"""
+
 	'Angular Directive':
 		'prefix': 'ng-directive'
 		'body': """

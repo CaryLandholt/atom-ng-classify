@@ -36,6 +36,7 @@ Go to `Packages > ng-classify > Compile` to see the ng-classified version
 * [ng-config](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#config)
 * [ng-constant](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#constant)
 * [ng-controller](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#controller)
+* ng-decorator (Similar to [ng-config](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#config), but with decorator boilerplate)
 * [ng-directive](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#directive)
 * [ng-factory](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#factory)
 * [ng-filter](https://github.com/CaryLandholt/ng-classify/blob/master/README.md#filter)
