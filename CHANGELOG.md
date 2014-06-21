@@ -1,3 +1,17 @@
+## 4.1.0 (2014-06-20)
+
+
+#### Bug Fixes
+
+* **snippets:** comply with ng-classify v3.0.0 ([972b7e7a](https://github.com/CaryLandholt/atom-ng-classify/commit/972b7e7aa985506e2e54a5b64f74343c159bd79a))
+* **tab-size:** make tab-size 2 ([a5573d0c](https://github.com/CaryLandholt/atom-ng-classify/commit/a5573d0cced9fe5f12556cfc94d05947277ccbb0))
+
+
+#### Features
+
+* **ng-decorator:** add decorator support ([3190e9eb](https://github.com/CaryLandholt/atom-ng-classify/commit/3190e9eb4317e508453116fd50a13dde118a7d10))
+
+
 ### 4.0.1 (2014-06-19)
 
 
