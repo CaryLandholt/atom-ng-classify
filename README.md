@@ -7,6 +7,10 @@
 > Write less JavaScript. Write less CoffeeScript. Write less Angular.
 
 
+# THIS PACKAGE HAS BEEN DEPRECATED
+Please use [ng-classify-preview](https://github.com/CaryLandholt/atom-ng-classify-preview) instead
+
+
 ## Install
 ```bash
 $ apm install ng-classify
